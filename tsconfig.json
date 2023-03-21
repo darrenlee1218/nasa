@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "es5",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "paths": {
+    "constants/*": ["constants/*"],
+    "components/*": ["components/*"],
+    "containers/*": ["containers/*"],
+    "utils/*": ["utils/*"],
+    "pages/*": ["pages/*"]
+  },
+  "include": ["./index.ts", "./api/**/*", "./src/**/*", "src/middleware.ts"],
+  "exclude": ["./node_modules", ".next"]
+}

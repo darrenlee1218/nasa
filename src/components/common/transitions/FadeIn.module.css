@@ -1,0 +1,28 @@
+.preEnter {
+  opacity: 0;
+}
+
+.appear.appear,
+.enter.enter {
+  opacity: 0;
+}
+
+.appearActive.appearActive,
+.enterActive.enterActive {
+  opacity: 1;
+  transition: opacity 800ms;
+}
+
+.appearDone.appearDone,
+.enterDone.enterDone {
+  opacity: 1;
+}
+
+.exit.exit {
+  opacity: 1;
+}
+
+.exitActive.exitActive {
+  opacity: 0;
+  transition: opacity 800ms;
+}
